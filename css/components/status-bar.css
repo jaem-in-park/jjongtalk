@@ -1,26 +1,33 @@
 .status-bar {
-    position: sticky;
-    top: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 5px 3px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 5px 3px;
 }
 .status-bar__column {
-    width: 33%;
+  width: 33%;
 }
 .status-bar__column:first-child span {
-    margin-right: 5px;
+  margin-right: 5px;
 }
-.status-bar__column:nth-child(2){
-    display: flex;
-    justify-content: center;
+.status-bar__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
 }
-.status-bar__column:last-child{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+.status-bar__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
-.status-bar__column .fa-battery-full{
-    margin: 0px 5px;
+.status-bar__column .fa-battery-full {
+  margin: 0px 5px;
+  font-size: 1.4rem; /* 아이콘 크기를 조정 */
+  vertical-align: middle; /* 수직 정렬 */
+}
+
+.status-bar__column .fa-bolt {
+  font-size: 1rem; /* 아이콘 크기를 조정 */
+  vertical-align: middle; /* 수직 정렬 */
 }
